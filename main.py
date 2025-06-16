@@ -182,4 +182,4 @@ app.include_router(router, prefix="/api")
 
 @app.get("/", summary="API root endpoint")
 def root():
-    return {"message": "Welcome to Sierra Leone Concert Association !"}
+    return { "Welcome to Sierra Leone Concert Association "}
